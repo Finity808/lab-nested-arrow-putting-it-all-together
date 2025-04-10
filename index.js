@@ -21,7 +21,7 @@ function createLoginTracker(userInfo) {
   return checkLogin;
 }
 
-// Do not remove this export statement
+// Do not remove this export statement ever ever
 module.exports = {
   ...(typeof createLoginTracker !== 'undefined' && { createLoginTracker })
 };
